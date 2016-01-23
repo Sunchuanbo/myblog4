@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+body{
+	background: #ccc;
+}
+
+
+/****************header开始******************/
+#header{
+	position: relative;
+    min-height: 830px;
+	overflow: hidden;
+}
+#nav{
+	height: 192px;
+}
+#nav .nav-icon{
+	width: 52px;
+	height: 52px;
+	background: url(../img/nav-icon.png) no-repeat;
+	position: absolute;
+	top: 64px;
+	right: 86px;
+	cursor: pointer;
+	z-index: 1;
+}
+#nav .nav-menu-box{
+	width: 100%;
+	position: relative;
+	top: -192px;
+	left: 0;
+	z-index: 1;
+}
+#nav .nav-bg{
+	width: 100%;
+	height: 192px;
+	background: rgb(82, 87, 89);
+	opacity: 0.39;
+	filter:alpha(opacity=39);
+}
+#nav .nav-menu{
+	width: 694px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: -347px;
+	top: 50%;
+	margin-top: -16px;
+}
+#nav .nav-menu li{
+	float: left;
+}
+#nav .nav-menu a{
+	display: block;
+	margin:8px 22px;
+	color: #fff;
+	font-weight: bold;
+}
+#nav .nav-menu a:hover{
+	color: red;
+}
+#nav .nav-close{
+	width: 35px;
+	height: 35px;
+	background: url(../img/close2.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	right: 94px;
+	cursor: pointer;
+}
+#nav .nav-close:hover{
+	background: url(../img/close2h.png) no-repeat;
+
+}
+#header .header-bg{
+	width: 100%;
+    min-height: 830px;
+	position: absolute;
+	top: 0;
+}
+#header .header-mid{
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -270px;
+	z-index: 2;
+	width: 540px;
+	height: 590px;
+}
+#header .header-mid img{
+	display: block;
+	margin: 0 auto;
+}
+#header .header-mid h2{
+    font-family: 'Cookie', cursive;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+#header .header-mid p{
+    text-align: center;
+    color: #fff;
+	font-size: 24px;
+}
+#header .header-mid ul{
+	width: 336px;
+	height: 58px;
+	margin: 20px auto;
+}
+#header .header-mid li{
+	width: 146px;
+	height: 58px;
+	border-radius: 10px;
+	background: #74a89b;
+	float: left;
+}
+#header .header-mid-left{
+	margin-right: 44px;
+}
+#header .header-mid li a{
+	display: inline-block;
+	width: 146px;
+	height: 58px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	line-height: 58px;
+}
+/****************header结束******************/
+
+
+/****************footer开始******************/
+#footer{
+	width: 100%;
+	height: 226px;
+	background: #f3f3f3;
+}
+#footer .footer-wrap{
+	width: 1140px;
+	height: 40px;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+}
+#footer .footer-top{
+	height: 59px;
+    color: #595959;
+    padding: 40px 0;
+}
+#footer .footer-top p{
+	height: 59px;
+	line-height: 59px;
+	font-size: 30px;
+	text-align: center;
+}
+#footer .footer-top a{
+	display: inline-block;
+	width: 188px;
+	height: 59px;
+	line-height: 59px;
+	background: #5dbed2;
+	border-radius: 8px;	
+	color: #fff;		
+}
+#footer .footer-bot{
+	height: 87px;
+	width: 100%;
+    border-top: 1px solid #DBDBDB;
+    margin: 0 auto;
+    /*margin-left: 113px;*/
+}
+#footer .footer-bot p{
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	margin: 30px 0;
+	color: #8e8e8e;
+	font-size: 20px;
+	/*margin-left: 113px;*/
+}
+#footer .footer-bot ul{
+	float: right;
+	width: 106px;
+	height: 27px;
+	margin-top: 30px;
+	/*margin-right: 113px;*/
+}
+#footer .footer-bot li{
+	display: block;
+	width: 22px;
+	height: 22px;
+	float: left;
+}
+#footer .footer-bot1{
+	background: url(../img/social-icons.png) no-repeat;
+}
+#footer .footer-bot1:hover{
+	background: url(../img/social-icons.png) no-repeat 0 -22px;
+}
+#footer .footer-bot2{
+	background: url(../img/social-icons.png) no-repeat -22px -0;
+}
+#footer .footer-bot2:hover{
+	background: url(../img/social-icons.png) no-repeat -22px -22px;
+}
+#footer .footer-bot3{
+	background: url(../img/social-icons.png) no-repeat -50px -0;
+}
+#footer .footer-bot3:hover{
+	background: url(../img/social-icons.png) no-repeat -50px -22px;
+}
+#footer .footer-bot4{
+	background: url(../img/social-icons.png) no-repeat -78px -0;
+}
+#footer .footer-bot4:hover{
+	background: url(../img/social-icons.png) no-repeat -78px -22px;
+}
+/****************footer结束******************/
+/****************movetop开始******************/
+#movetop{
+	background: url(../img/to-top1.png) no-repeat;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+/****************movetop结束******************/
+
+
+

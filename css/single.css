@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f3f3f3;
+	font-family: 'Raleway', sans-serif;
+
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: 0;
+
+}
+a{
+	text-decoration: none;
+}
+/*********header start*****************/
+#header{
+	min-height: 200px;
+	background: url(../img/bg2.jpg) no-repeat -200px;
+}
+#container{
+	width: 100%;
+	height: 480px;
+	background: #f3f3f3;
+}
+#container .wrap{
+	width: 1110px;
+	height: 100%;
+	margin: 0 auto;
+}
+#container .wrap-left{
+	/*width: 730px;*/
+	height: 466px;
+	float: left;
+}
+#container .wrap-left p{
+	width: 730px;
+	/*height: 77px;*/
+	margin: 14px 0 29px;
+}
+#container .message{
+	height: 180px;
+}
+#container .wrap-left span{
+	display: block;
+	margin-bottom: 5px;
+}
+#container .textbox{
+	height: 25px;
+	padding: 10px;
+	width: 730px;
+	width: 95%;
+    border: 1px solid #eee;
+    color: #9198A3;
+    outline: none;
+}
+#container .wrap-left textarea{
+	display: block;
+    height: 150px;
+    display: block;
+	width: 730px;
+	border: 1px solid #eee;
+	padding: 10px;
+    color: #9198A3;
+    width: 95%;
+    outline: none;
+    resize: none;
+}
+#container .button{
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 18px;
+	text-align: center;
+	padding: 15px 15px;
+	background: #02D7FD;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+#container .button:hover{
+	background: #000;
+	width: 98px;
+	font-size: 19px;
+}
+#container .wrap-right{
+	width: 360px;
+	height: 300px;
+	float: right;
+	padding-left: 20px;
+}
+#container .wrap-right h3{
+	height: 26px;
+	width: 100%;
+	margin: 20px 0 36px;
+    color: #000;
+}
+#container .wrap-right p{
+	overflow: hidden;
+	color: #999;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+#container .wrap-right a{
+	color: #000;
+}
+#map{
+	width: 1140px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #ccc;
+}
+/*#map .map- iframe{
+	display: block;
+	width: 1140px;
+	height: 300px;
+	border: none;
+}*/
+#footer{
+	width: 100%;
+	height: 40px;
+}
+#footer .footer-wrap{
+	width: 1140px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border-top: 1px solid #ccc;
+}
